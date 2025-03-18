@@ -1,0 +1,121 @@
+.footer {
+    padding: 73px 0 0;
+    margin-bottom: 83px;
+    border-bottom: 0.80px solid #d2d2d2;
+    position: relative;
+}
+
+.link {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 191%;
+    color: #fff;
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    left: 0;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer_wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 31px;
+}
+
+.text1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.text2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 11px;
+}
+
+.footer_card kbd {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer_logo {
+    margin-bottom: 15px;
+}
+
+.footer_list h5 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer_card h5 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer_list li {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 186%;
+    color: #fff;
+}
+
+.footer_img {
+    padding-top: 100px;
+}
+
+
+
+
+@media (max-width:1050px) {
+    .footer_wrapper {
+        flex-direction: column;
+    }
+
+    .footer {
+        padding: 73px 120px 29px 101px;
+    }
+
+    .link {
+        right: 0;
+        left: 0;
+    }
+}
+
+@media (max-width:600px) {
+    .footer {
+        padding: 73px 16px 29px;
+    }
+
+    .footer_img {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:410px) {
+    .footer {
+        text-align: center;
+    }
+}

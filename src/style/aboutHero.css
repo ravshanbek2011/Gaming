@@ -1,0 +1,122 @@
+.aboutHero {
+    margin-top: 35px;
+    padding: 93px 0 113px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.aboutHero_content {
+    width: 425px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.aboutHero_content h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 209%;
+    color: #fff;
+    margin-bottom: 38px;
+}
+
+.aboutHero_content h4 span {
+    color: #e47500;
+}
+
+.aboutHero_content h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 180%;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.aboutHero_content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 209%;
+    color: #fff;
+    margin-bottom: 57px;
+}
+
+.aboutHero_content button {
+    border-radius: 40px;
+    width: 176px;
+    height: 47px;
+    background: linear-gradient(113deg, #fa8305 0%, #fb9e3c 100%);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.aboutHero_content button img {
+    margin-left: 18px;
+}
+
+.aboutHero_photo {
+    position: relative;
+}
+
+.aboutHero_title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 179px;
+    height: 67px;
+    background: #333;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.aboutHero_title kbd {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 209%;
+    color: #fff;
+    margin-left: 29px;
+    margin-right: 27px;
+}
+
+.aboutHero_title img {
+    cursor: pointer;
+}
+
+@media (max-width:1300px) {
+    .aboutHero {
+        padding: 93px 0 113px 16px;
+    }
+}
+
+@media (max-width:1100px) {
+    .aboutHero {
+        flex-direction: column-reverse;
+    }
+
+    .about_photo {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .aboutHero {
+        padding: 20px 16px 70px;
+    }
+
+    .aboutHero_content {
+        width: auto;
+        height: auto;
+    }
+
+    .aboutHero_content h2 {
+        font-size: 20px;
+    }
+}

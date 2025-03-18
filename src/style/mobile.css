@@ -1,0 +1,98 @@
+.mobile {
+    padding: 93px 0 92px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.65);
+}
+
+.mobile h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.mobile p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 99px;
+}
+
+.mobile_grid1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-bottom: 62px;
+}
+
+.mobile_grid1 h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.mobile_grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    text-align: center;
+}
+
+.mobile_grid2 h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.mobile_card img:nth-of-type(1):hover {
+    transform: scale(1.4);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.mobile_card img:nth-of-type(2):hover {
+    transform: scale(2);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+@media (max-width:700px) {
+    .mobile {
+        padding: 93px 16px 92px;
+    }
+
+    .mobile_grid1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:500px) {
+    .mobile h2 {
+        font-size: 20px;
+        line-height: 187%;
+    }
+
+    .mobile p {
+        font-size: 14px;
+    }
+}

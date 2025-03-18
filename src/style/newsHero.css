@@ -1,0 +1,96 @@
+.newsHero {
+    padding: 110px 0 100px;
+    position: relative;
+}
+
+.nuqtacha {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+
+.newsHero h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 209%;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.newsHero h4 span {
+    color: #e47500;
+}
+
+.newsHero h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 180%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.newsHero p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 74px;
+}
+
+.newsHero_form {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    padding: 9px 25px 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 49px;
+    background: #1c140f;
+    margin: 0 auto;
+}
+
+.newsHero_form input {
+    background-color: transparent;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 189%;
+    color: #fff;
+}
+
+.newsHero_form input::placeholder {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 189%;
+    color: #fff;
+}
+
+@media (max-width:450px) {
+    .newsHero {
+        padding: 100px 0 70px;
+    }
+    
+    .nuqtacha {
+        display: none;
+    }
+
+    .newsHero h2 {
+        font-size: 25px;
+    }
+
+    .newsHero_form {
+        width: 100%;
+    }
+
+    .newsHero p {
+        margin-bottom: 50px;
+    }
+}

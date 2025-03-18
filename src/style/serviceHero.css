@@ -1,0 +1,123 @@
+.serviceHero {
+    padding: 110px 130px 120px 170px;
+}
+
+.serviceHero h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 209%;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.serviceHero h4 span {
+    color: #e47500;
+}
+
+.serviceHero h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 180%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.serviceHero p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.service_wrapper {
+    border-radius: 10px;
+    background: #1c140f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 83px 37px 91px;
+}
+
+.service_card {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    border-right: 2px solid #eeeff2;
+    padding-right: 110px;
+}
+
+.service_card:nth-of-type(3) {
+    border: none;
+}
+
+.service_card h3 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.service_card kbd {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.service_card img {
+    cursor: pointer;
+}
+
+.service_card img:hover {
+    transition: 300ms;
+    transform: scale(1.5);
+}
+
+@media (max-width:1300px) {
+    .service_card {
+        border: none;
+        padding-right: 0;
+    }
+
+    .serviceHero {
+        padding: 110px 16px 120px;
+        text-align: center;
+    }
+}
+
+@media (max-width:800px) {
+    .service_wrapper {
+        padding: 37px 16px 37px;
+        text-align: center;
+    }
+}
+
+@media (max-width:650px) {
+    .serviceHero {
+        text-align: start;
+        padding: 70px 16px;
+    }
+
+    .service_card {
+        margin-bottom: 32px;
+    }
+
+    .service_wrapper {
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .serviceHero h2 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,124 @@
+.trusted {
+    padding: 88px 31px 60px 109px;
+    background: #1c140f;
+}
+
+.trusted h2 {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 143%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.trusted p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 68px;
+}
+
+.trusted_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.trusted_card {
+    border-radius: 10px;
+    padding: 30px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.trusted_show {
+    padding: 30px;
+    border: 2px solid #dc7000;
+    border-radius: 10px;
+    background: #0f0901;
+}
+
+.trusted_info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.trusted_title h4 {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+}
+
+.trusted_title span {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    text-align: center;
+    color: #4f5665;
+}
+
+.trusted_photo h3 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fff;
+}
+
+.trusted_photo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 80px;
+}
+
+.trusted_card kbd {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fff;
+    margin-top: 20px;
+    display: block;
+}
+
+@media (max-width:1300px) {
+    .trusted {
+        padding: 88px 20px 60px;
+    }
+
+    .trusted_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width:770px) {
+    .trusted_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .trusted_photo {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:400px) {
+    .trusted_info {
+        flex-direction: column;
+    }
+
+    .trusted h2 {
+        font-size: 25px;
+    }
+}

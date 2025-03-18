@@ -1,0 +1,80 @@
+.project {
+    padding: 141px 0 105px;
+    text-align: center;
+    background: linear-gradient(152deg, #090300 0%, rgba(9, 3, 0, 0) 100%);
+}
+
+.project h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.project p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 71px;
+}
+
+.project_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 27px;
+    margin-bottom: 33px;
+}
+
+.project button {
+    border-radius: 10px;
+    width: 139px;
+    height: 57px;
+    background: rgba(255, 255, 255, 0.11);
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 187%;
+    color: #fff;
+    border: none;
+    margin-top: 39px;
+    cursor: pointer;
+}
+
+@media (max-width:1220px) {
+    .project {
+        padding: 70px 16px;
+    }
+
+    .project_grid img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:700px) {
+    .project_grid {
+        gap: 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .project {
+        text-align: center;
+    }
+
+    .project_grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+
+    .project_grid img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,146 @@
+.contactHero {
+    padding: 100px 0 147px;
+}
+
+.contactHero h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 209%;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contactHero h4 span {
+    color: #e47500;
+}
+
+.contactHero h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 180%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.contactHero p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 93px;
+}
+
+.maps {
+    width: 100%;
+}
+
+.contactHero_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+
+.contact_content {
+    border-right: 1px solid #fff;
+    height: 102px;
+    padding-right: 97px;
+}
+
+.contact_content kbd {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 189%;
+    color: #fff;
+    margin-bottom: 18px;
+    display: block;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.contact_content kbd:hover {
+    text-decoration: underline;
+}
+
+.contact_phone {
+    border-right: 1px solid #fff;
+    height: 102px;
+    padding-right: 109px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact_phone h3 {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact_location {
+    height: 102px;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.contact_location h3 {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact_flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact_flex img:hover {
+    transition: 200ms;
+    transform: scale(1.5);
+}
+
+@media (max-width:1200px) {
+    .contact_content {
+        border-right: none;
+        padding-right: 0;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .contact_phone {
+        border-right: none;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:1100px) {
+    .contactHero {
+        padding: 100px 16px;
+    }
+
+    .contactHero_wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px) {
+    .contactHero {
+        padding: 70px 16px 50px;
+    }
+
+    .contactHero h2 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,160 @@
+.contactInfo {
+    padding: 54px 0 63px;
+    background: #1c140f;
+}
+
+.contactInfo h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 189%;
+    color: #fff;
+    text-align: center;
+}
+
+.contactInfo p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 189%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 79px;
+}
+
+.contactInfo_wrapper {
+    width: 671px;
+    margin: 0 auto;
+}
+
+.contactInfo_wrapper button {
+    border-radius: 10px;
+    width: 193px;
+    height: 57px;
+    background: #dc7000;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 204%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact_btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 51px;
+}
+
+.contactInfo_wrapper button:hover {
+    text-decoration: underline;
+}
+
+.content_ikkita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.contactInfo_wrapper h5 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 175%;
+    letter-spacing: -0.02em;
+    color: #4f4f4f;
+}
+
+.content_ikkita h5 {
+    margin-bottom: 6px;
+}
+
+.contact_form input {
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+    width: 322px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.07);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 175%;
+    letter-spacing: -0.02em;
+    color: #fff;
+    padding: 5px 12px;
+}
+
+.inputt3 {
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+    width: 671px;
+    height: 56px;
+}
+
+.contact_form3 input {
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+    width: 671px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.07);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 175%;
+    letter-spacing: -0.02em;
+    color: #fff;
+    padding: 5px 12px;
+    margin-bottom: 20px;
+}
+
+.contact_form3 h5 {
+    margin-bottom: 3px;
+}
+
+.contact_form4 input {
+    border: 0.60px solid #cecece;
+    border-radius: 9px;
+    width: 671px;
+    height: 232px;
+    background: rgba(255, 255, 255, 0.07);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 175%;
+    letter-spacing: -0.02em;
+    color: #fff;
+    padding: 5px 12px;
+}
+
+.contact_form4 h5 {
+    margin-bottom: 3px;
+}
+
+@media (max-width:730px) {
+    .contactInfo {
+        padding: 54px 16px 63px;
+    }
+
+    .contact_form input {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact_form3 input {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact_form4 input {
+        width: 100%;
+        height: auto;
+    }
+
+    .contactInfo_wrapper {
+        width: auto;
+    }
+}

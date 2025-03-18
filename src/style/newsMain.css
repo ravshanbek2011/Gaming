@@ -1,0 +1,169 @@
+.newsMain {
+    padding: 10px 0 0;
+}
+
+.ikkitadan {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 72px;
+}
+
+.mainCard_title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.mainCard_title button {
+    width: 164px;
+    height: 48px;
+    background: #2351f5;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fffcfc;
+    border: none;
+    cursor: pointer;
+}
+
+.mainCard_title button:hover {
+    text-decoration: underline;
+}
+
+.mainCard_title span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mainCard_title span:hover {
+    text-decoration: underline;
+}
+
+.main_card1 h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.main_card1 p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 208%;
+    color: #fff;
+    margin-bottom: 44px;
+}
+
+.main_card1 kbd {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 208%;
+    color: #fff;
+    display: block;
+    margin-bottom: 90px;
+}
+
+.mainCard2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.mainCard_content button {
+    width: 137px;
+    height: 39px;
+    background: #2351f5;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fffcfc;
+    border: none;
+    cursor: pointer;
+}
+
+.mainCard_content button:hover {
+    text-decoration: underline;
+}
+
+.mainCard_content div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 23px;
+}
+
+.mainCard2 span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mainCard2 span:hover {
+    text-decoration: underline;
+}
+
+.mainCard2 h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 23px;
+    color: #fff;
+}
+
+@media (max-width:1150px) {
+    .newsMain {
+        padding: 10px 16px 0;
+    }
+
+    .ikkitadan {
+        gap: 30px;
+    }
+
+    .ikkitadan {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width:670px) {
+    .main_card1 img {
+        width: 100%;
+    }
+
+    .mainCard2 {
+        gap: 15px;
+    }
+}
+
+@media (max-width:500px) {
+    .mainCard2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mainCard2 div {
+        margin: 0 auto 23px;
+        display: block;
+    }
+
+    .mainCard2 div button {
+        margin-right: 20px;
+    }
+
+    .main_card1 h2 {
+        font-size: 24px;
+    }
+}

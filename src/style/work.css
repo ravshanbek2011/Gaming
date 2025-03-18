@@ -1,0 +1,103 @@
+.work {
+    padding: 30px 0 147px;
+}
+
+.work h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 180%;
+    color: #fff;
+    margin-bottom: 63px;
+}
+
+.work_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 43px;
+}
+
+.work_card {
+    padding: 64px 37px;
+    border-radius: 20px;
+    box-shadow: 0 4px 94px 0 rgba(0, 0, 0, 0.15);
+    background: #1c140f;
+}
+
+.button1 {
+    border-radius: 8px;
+    width: 140px;
+    height: 39px;
+    background: rgba(176, 0, 220, 0.11);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 19px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fff;
+}
+
+.button2 {
+    border-radius: 8px;
+    width: 140px;
+    height: 39px;
+    background: rgba(220, 66, 0, 0.11);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 19px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fff;
+}
+
+.button3 {
+    border-radius: 8px;
+    width: 140px;
+    height: 39px;
+    background: rgba(0, 220, 141, 0.11);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 19px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fff;
+}
+
+.work_card h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 187%;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.work_card p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #fff;
+}
+
+@media (max-width:900px) {
+    .work {
+        padding: 0 16px 80px;
+    }
+
+    .work_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:610px) {
+    .work_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
