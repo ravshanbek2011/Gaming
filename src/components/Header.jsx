@@ -9,10 +9,13 @@ function Header() {
   let modal = useRef()
   function openModal() {
     modal.current.classList.add("show_modal")
+    document.querySelector("body").classList.add("abs")
   }
 
   function closeModal() {
     modal.current.classList.remove("show_modal")
+    document.querySelector("body").classList.remove("abs")
+
   }
   return (
     <header className='header'>

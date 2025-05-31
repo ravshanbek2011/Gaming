@@ -82,13 +82,17 @@
 
 .modal {
     position: fixed;
-    background-color: blue;
     inset: 0;
+    background-image: url(https://img.freepik.com/free-vector/abstract-realistic-technology-particle-background_52683-33064.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
     
-
     transform: translateX(-2000px);
     transition: 1s;
     z-index: 99;
+    height: 100vh;
 }
 
 .show_modal {
@@ -135,6 +139,8 @@
     color: #fff;
     border: none;
     margin-top: 15px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .burger {
@@ -155,6 +161,10 @@
 .close_btn:hover {
     transform: rotate(180deg);
     transition: 500ms;
+}
+
+.abs {
+    overflow: hidden;
 }
 
 @media (max-width:950px) {
