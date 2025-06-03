@@ -19,7 +19,7 @@ function ContactHero() {
         <img className='maps' src={rasm} alt="" />
         <div className="contactHero_wrapper">
             <div className="contact_content">
-                <NavLink to="https://www.instagram.com/ravshan_o32o1"><kbd>Follow us</kbd></NavLink>
+                <NavLink to="https://www.instagram.com/ravshan._o32o1/?next=%2F"><kbd>Follow us</kbd></NavLink>
                 <div className="contact_flex">
                   <NavLink to="https://www.facebook.com/"><img src={rasm1} alt="" /></NavLink>
                   <NavLink to="https://www.instagram.com/?flo=true"><img src={rasm2} alt="" /></NavLink>
